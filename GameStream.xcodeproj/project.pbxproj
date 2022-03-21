@@ -3,23 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1365C3F27E6C3C200AEA184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15983AA27E695E200B9840D /* ContentView.swift */; };
+		A1365C4727E7045C00AEA184 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1365C4627E7045C00AEA184 /* Home.swift */; };
 		A15983A927E695E200B9840D /* GameStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15983A827E695E200B9840D /* GameStreamApp.swift */; };
-		A15983AB27E695E200B9840D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15983AA27E695E200B9840D /* ContentView.swift */; };
 		A15983AD27E695EA00B9840D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15983AC27E695EA00B9840D /* Assets.xcassets */; };
 		A15983B027E695EA00B9840D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15983AF27E695EA00B9840D /* Preview Assets.xcassets */; };
+		A15A15CE27E7C9B60080C84B /* gamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15CD27E7C9B60080C84B /* gamesView.swift */; };
+		A15A15D627E7CB430080C84B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15D527E7CB430080C84B /* Model.swift */; };
+		A15A15DA27E7CB5E0080C84B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15D927E7CB5E0080C84B /* ViewModel.swift */; };
+		A15A15DE27E7DA4F0080C84B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A15A15DD27E7DA4F0080C84B /* Kingfisher */; };
+		A15A15E227E7DC6A0080C84B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15E127E7DC6A0080C84B /* GameView.swift */; };
+		A15A15EA27E7EDE00080C84B /* SearchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15E927E7EDDF0080C84B /* SearchGame.swift */; };
+		A15A15EE27E7F5710080C84B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15ED27E7F5710080C84B /* FavoritesView.swift */; };
+		A15A15F327E7F7A70080C84B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15F227E7F7A70080C84B /* ProfileView.swift */; };
+		A15A15F627E7F7B60080C84B /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15F527E7F7B60080C84B /* EditProfileView.swift */; };
+		A15A15FB27E7FD520080C84B /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15FA27E7FD520080C84B /* SaveData.swift */; };
+		A15A15FF27E80D080080C84B /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A15FE27E80D080080C84B /* SUImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1365C4627E7045C00AEA184 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A15983A527E695E200B9840D /* GameStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15983A827E695E200B9840D /* GameStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStreamApp.swift; sourceTree = "<group>"; };
-		A15983AA27E695E200B9840D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A15983AA27E695E200B9840D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		A15983AC27E695EA00B9840D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15983AF27E695EA00B9840D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A15983B127E695EA00B9840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15A15CD27E7C9B60080C84B /* gamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamesView.swift; sourceTree = "<group>"; };
+		A15A15D527E7CB430080C84B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A15A15D927E7CB5E0080C84B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A15A15E127E7DC6A0080C84B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A15A15E927E7EDDF0080C84B /* SearchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGame.swift; sourceTree = "<group>"; };
+		A15A15ED27E7F5710080C84B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		A15A15F227E7F7A70080C84B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A15A15F527E7F7B60080C84B /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		A15A15FA27E7FD520080C84B /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		A15A15FE27E80D080080C84B /* SUImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SUImagePickerView.swift; path = "SUImagePickerView-master/SUImagePickerView/SUImagePickerView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15A15DE27E7DA4F0080C84B /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +76,10 @@
 		A15983A727E695E200B9840D /* GameStream */ = {
 			isa = PBXGroup;
 			children = (
+				A15A15D127E7CAD50080C84B /* Model */,
+				A15A15D027E7CA9C0080C84B /* Views */,
+				A15A15D427E7CB1F0080C84B /* ViewModels  */,
 				A15983A827E695E200B9840D /* GameStreamApp.swift */,
-				A15983AA27E695E200B9840D /* ContentView.swift */,
 				A15983AC27E695EA00B9840D /* Assets.xcassets */,
 				A15983B127E695EA00B9840D /* Info.plist */,
 				A15983AE27E695EA00B9840D /* Preview Content */,
@@ -67,6 +93,39 @@
 				A15983AF27E695EA00B9840D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A15A15D027E7CA9C0080C84B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A15983AA27E695E200B9840D /* ContentView.swift */,
+				A15A15CD27E7C9B60080C84B /* gamesView.swift */,
+				A1365C4627E7045C00AEA184 /* Home.swift */,
+				A15A15E127E7DC6A0080C84B /* GameView.swift */,
+				A15A15ED27E7F5710080C84B /* FavoritesView.swift */,
+				A15A15F227E7F7A70080C84B /* ProfileView.swift */,
+				A15A15F527E7F7B60080C84B /* EditProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A15A15D127E7CAD50080C84B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A15A15D527E7CB430080C84B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A15A15D427E7CB1F0080C84B /* ViewModels  */ = {
+			isa = PBXGroup;
+			children = (
+				A15A15D927E7CB5E0080C84B /* ViewModel.swift */,
+				A15A15FE27E80D080080C84B /* SUImagePickerView.swift */,
+				A15A15E927E7EDDF0080C84B /* SearchGame.swift */,
+				A15A15FA27E7FD520080C84B /* SaveData.swift */,
+			);
+			path = "ViewModels ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +144,9 @@
 			dependencies = (
 			);
 			name = GameStream;
+			packageProductDependencies = (
+				A15A15DD27E7DA4F0080C84B /* Kingfisher */,
+			);
 			productName = GameStream;
 			productReference = A15983A527E695E200B9840D /* GameStream.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +174,9 @@
 				Base,
 			);
 			mainGroup = A159839C27E695E200B9840D;
+			packageReferences = (
+				A15A15DC27E7DA4F0080C84B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A15983A627E695E200B9840D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +203,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15983AB27E695E200B9840D /* ContentView.swift in Sources */,
+				A15A15D627E7CB430080C84B /* Model.swift in Sources */,
+				A1365C3F27E6C3C200AEA184 /* ContentView.swift in Sources */,
+				A15A15FB27E7FD520080C84B /* SaveData.swift in Sources */,
+				A15A15F327E7F7A70080C84B /* ProfileView.swift in Sources */,
+				A15A15F627E7F7B60080C84B /* EditProfileView.swift in Sources */,
+				A15A15FF27E80D080080C84B /* SUImagePickerView.swift in Sources */,
+				A1365C4727E7045C00AEA184 /* Home.swift in Sources */,
+				A15A15EA27E7EDE00080C84B /* SearchGame.swift in Sources */,
+				A15A15CE27E7C9B60080C84B /* gamesView.swift in Sources */,
+				A15A15DA27E7CB5E0080C84B /* ViewModel.swift in Sources */,
 				A15983A927E695E200B9840D /* GameStreamApp.swift in Sources */,
+				A15A15E227E7DC6A0080C84B /* GameView.swift in Sources */,
+				A15A15EE27E7F5710080C84B /* FavoritesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +402,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A15A15DC27E7DA4F0080C84B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A15A15DD27E7DA4F0080C84B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A15A15DC27E7DA4F0080C84B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A159839D27E695E200B9840D /* Project object */;
 }
